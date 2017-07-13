@@ -1,0 +1,1 @@
+# gulp-thrift-tsd
