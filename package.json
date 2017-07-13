@@ -2,8 +2,7 @@
   "name": "gulp-thrift-tsd",
   "version": "0.0.6",
   "description": "generate tsd for nodejs by thrift cmd '-gen js,ts' tsd files",
-  "main": "./build/index.js",
-  "typings": "./build/index.d.ts",
+  "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
@@ -12,8 +11,14 @@
       "name": "luliang",
       "email": "lu_liang@qq.com"
     }
+  ],  
+  "keywords": [
+    "thrift",
+    "typescript",
+    "tsd",
+    "nodejs"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "gulp-util": "^3.0.7",
     "through2": "^2.0.1"
